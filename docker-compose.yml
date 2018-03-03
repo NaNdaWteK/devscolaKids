@@ -1,0 +1,6 @@
+version: "2"
+services:
+  katas:
+    build: .
+    volumes:
+      - .:/katas
